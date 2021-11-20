@@ -39,3 +39,21 @@ caption {
   padding: 1em;
 
 }
+
+body-text-center {
+  text-align: center;
+  
+}
+
+.btn {
+  background-color: #04a327;
+  color: #fff;
+  padding: auto;
+  margin: auto;
+  cursor: pointer;
+}
+
+.bold {
+   font-weight: 900;
+  
+}
