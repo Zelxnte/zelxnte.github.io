@@ -1,3 +1,17 @@
+@font-face {
+  font-family: Sansation;
+  src: url(sansation_light.woff);
+}
+
+* {
+  font-family: Sansation, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+}
+
 table {
   border-spacing: 0;
   table-layout: fixed;
@@ -15,7 +29,7 @@ td {
   padding: 0.5em;
   
   text-align: center;
-  font-family: Helvetica, sans-serif;
+  font-family: Sansation, Helvetica, sans-serif;
   
 }
 
@@ -23,7 +37,7 @@ th {
   border: 3px solid black;
   padding: 0.5em;
   text-align: center;
-  font-family: Helvetica, sans-serif;
+  font-family: Sansation, Helvetica, sans-serif;
   background-color: #101010;
   color: #fff;
 
@@ -48,10 +62,12 @@ caption {
 .btn {
   background-color: #04a327;
   color: #fff;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
   
   padding: 1em;
   border: 0px;
-  border-radius: 5px;
+  border-radius: 4px;
   
   margin: auto;
   display: flex
@@ -60,6 +76,11 @@ caption {
 }
 
 .bold {
-   font-weight: 900;
+   font-weight: bolder;
   
+}
+
+.container {
+  display: grid; 
+
 }
