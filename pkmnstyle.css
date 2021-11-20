@@ -48,8 +48,14 @@ caption {
 .btn {
   background-color: #04a327;
   color: #fff;
-  padding: auto;
+  
+  padding: 1em;
+  border: 0px;
+  border-radius: 5px;
+  
   margin: auto;
+  display: flex
+  
   cursor: pointer;
 }
 
