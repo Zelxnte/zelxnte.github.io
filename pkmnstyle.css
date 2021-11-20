@@ -84,3 +84,8 @@ caption {
   display: grid; 
 
 }
+
+.noeffect {
+  background-color:  #fc736f;
+  
+}
