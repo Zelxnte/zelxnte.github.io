@@ -1,0 +1,41 @@
+table {
+  border-spacing: 0;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  margin: 0;
+  padding: 0;
+  vertical-align: center;
+  border: 1px solid black;
+  padding: 0.5em;
+  
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  
+}
+
+th {
+  border: 3px solid black;
+  padding: 0.5em;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  background-color: #101010;
+  color: #fff;
+
+}
+
+.corner-cell {
+  background-color: #101010;
+  color: #fff;
+  border: 2px solid black;
+}
+
+caption {
+  padding: 1em;
+
+}
