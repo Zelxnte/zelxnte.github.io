@@ -1,101 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	
-	<!-- Title, CSS, Favicon -->
-	<title>Iyan</title>
+	<head>
+	<!-- CSS Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="style.css" />
-	<link rel="icon" type="image/x-icon" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffinologee.com%2Fwp-content%2Fuploads%2F2019%2F04%2Fcropped-favicon-7.png&f=1&nofb=1&ipt=0592389854246dabdd2a9be049b8c7d90900379e09c77256bc1436dad9c09596&ipo=images">
-	
-	<!--Non-cached version (for updates)-->
-	<meta http-equiv='cache-control' content='no-cache'> 
-	<meta http-equiv='expires' content='0'> 
-	<meta http-equiv='pragma' content='no-cache'>
-	
-</head>
 
-
-
-<style type="text/css"></style>
-
-<style>
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
-
-  	html{
-	height: 100%;
-	margin: 0;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 1em;
-	color: #666;
-}
-
-	body {
-		background:#EEE;
-    	display:flex;
-    	align-items:center;
-    	height:90%;
-	}
-
-	.main {
-      	margin:1em auto;
-		text-align:center;
-		transition:.5s;
-		width:100%;
-	}
-
-	.main span {
-		background:#DFDCE3;
-		width:7%;
-		height:35%;
-		display:block;
-		line-height:75px;
-		font-family: "Roboto", sans-serif;
-		color:#a0a0a0;
-		font-size:2em;
-		float:left;
-		transition:.5s;
-		border-radius:4px;
-	}
-
-	.main:hover span:nth-child(odd) {
-		transform:skewY(20deg);
-		box-shadow:0 30px 20px rgba(0,0,0,.2);
-		color:#fff;
-		background:#FF5A09;
-		width:7%;
-		height:7%;
-	}
-	.main:hover span:nth-child(even) {
-		transform:skewY(-20deg);
-		box-shadow:0 30px 20px rgba(0,0,0,.2);
-		color:#fff;
-		background:#FF5A09;
-		width:7%;
-		height:7%;
-	}
-
-</style>
-
-
-<body>
-
-    <div class="main"> 
-	    <span>C</span>
-	    <span>o</span>
-	    <span>m</span>
-	    <span>i</span>
-	    <span>n</span>
-	    <span>g</span>
-	    <span>&nbsp;</span>
-	    <span>S</span>
-	    <span>o</span>
-	    <span>o</span>
-        <span>n</span>
-    </div>
+	<!-- Responsive Navbar (Hamburger) -->
+	<div class="outer-menu">
+	  <input class="checkbox-toggle" type="checkbox" />
+	  <div class="hamburger">
+	    <div></div>
+	  </div>
+	  <div class="menu">
+	    <div>
+	      <div>
+		<ul>
+		  <li><a class="navtext" href="#">About</a></li>
+		  <li><a class="navtext" href="#">Lorem</a></li>
+		  <li><a class="navtext" href="#">Ipsum</a></li>
+		  <li><a class="navtext" href="#">Text</a></li>
+		</ul>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	</head>
     
-</body>
+
+	<body>
+		<!-- Animated Text -->
+		<h1>
+		  <span>C</span>
+		  <span>o</span>
+		  <span>m</span>
+		  <span>i</span>
+		  <span>n</span>
+		  <span>g</span>
+		</br>
+		  <span>s</span>
+		  <span>o</span>
+		  <span>o</span>
+		  <span>n</span>
+		</h1>
+	</body>
 </html>
