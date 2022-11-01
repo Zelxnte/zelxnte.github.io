@@ -3,9 +3,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300');
 
+/* Remove default margin and padding */
+*{
+	margin: 0;
+	padding: 0;
+}
+
 /* BACKGROUND */
 body {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -17,7 +23,7 @@ body {
   background-attachment: fixed;
   background-size: 100vh;
   overflow: hidden;
-  z-index: -1;
+  z-index: 0;
 }
 
 
@@ -49,7 +55,8 @@ body {
  h1 {
 	 font-family: 'Quicksand', sans-serif;
 	 font-weight: 400;
-	 font-size: 2.5em;
+	 /* control animated centre h1 text */
+	 font-size: 8vw;
 	 text-align: center;
 }
  .outer-menu {
@@ -66,8 +73,8 @@ body {
 	 left: 0;
 	 z-index: 2;
 	 cursor: pointer;
-	 width: 4em;
-	 height: 4em;
+	 width: 8vw;
+	 height: 9.5vw;
 	 opacity: 0;
 }
  .outer-menu .checkbox-toggle:checked + .hamburger > div {
@@ -150,6 +157,8 @@ body {
 	 background: inherit;
 	 transition: all .4s ease;
 }
+
+/* Bottom Burger distance */
  .outer-menu .hamburger > div:after {
 	 top: 10px;
 }
@@ -176,7 +185,7 @@ body {
 	 color: #FEFEFE;
 	 background: rgba(30,37,53,0.97);
 	 border-radius: 50%;
-	 transition: all .4s ease;
+	 transition: all .2s ease;
 	 flex: none;
 	 transform: scale(0);
 	 backface-visibility: hidden;
@@ -190,7 +199,7 @@ body {
 	 max-width: 90vw;
 	 max-height: 100vh;
 	 opacity: 0;
-	 transition: opacity .4s ease;
+	 transition: opacity .2s ease;
 	 overflow-y: auto;
 	 flex: none;
 	 display: flex;
@@ -285,17 +294,11 @@ body:before {
     550px 0 300px 200px rgba(255, 255, 255, 0.6),
     -550px 0 300px 200px rgba(255, 255, 255, 0.6);
 }
-
-.text-container-centre {
-  width: 100%;
-  text-align: center;
-}
-
 /* JUMP */
 h1 {
   cursor: default;
   position: absolute;
-  top: -20%;
+  top: -45%;
   left: 0;
   right: 0;
   bottom: 0;
@@ -318,7 +321,7 @@ h1 span {
   -webkit-animation: bounce 0.9s ease infinite alternate;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
     0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
-    0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.5);
+    0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 h1 span:nth-child(2) {
