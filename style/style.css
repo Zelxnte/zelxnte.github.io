@@ -49,7 +49,7 @@ body {
  h1 {
 	 font-family: 'Quicksand', sans-serif;
 	 font-weight: 400;
-	 font-size: 3em;
+	 font-size: 2.5em;
 	 text-align: center;
 }
  .outer-menu {
@@ -303,7 +303,7 @@ h1 {
 h1 span {
   font-family: 'Quicksand', sans-serif;
   font-weight: 900;
-  font-size: 3em;
+  font-size: 2.5em;
   color: #fff;
   position: relative;
   /* controls bounce height */
